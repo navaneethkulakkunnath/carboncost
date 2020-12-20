@@ -1,0 +1,23 @@
+.table th, .table td {
+    padding: 0.65rem 0.25rem;
+    border-top: 1px solid rgba(222, 226, 230, 0.3);
+}
+.table>:not(caption)>*>* {
+    border-bottom: none;
+}
+.coin {
+    color: #fff;
+    i {
+        padding-right: 5px;
+        filter: drop-shadow(1px 1px 12px black);
+        
+    } & .fa-tree-alt {
+        color: green;
+    } &
+    .fa-smoke {
+        color: rgb(71, 68, 68);
+    }    
+}
+.price {
+    color: #fff;
+}

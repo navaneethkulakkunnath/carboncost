@@ -1,0 +1,10 @@
+C:\Hackathon2020\CarbonCost\Hk20CarbonCostML.Model\bin\Release\netstandard2.0\MLModel.zip
+C:\Hackathon2020\CarbonCost\Hk20CarbonCostML.Model\bin\Release\netstandard2.0\Hk20CarbonCostML.Model.deps.json
+C:\Hackathon2020\CarbonCost\Hk20CarbonCostML.Model\bin\Release\netstandard2.0\Hk20CarbonCostML.Model.dll
+C:\Hackathon2020\CarbonCost\Hk20CarbonCostML.Model\bin\Release\netstandard2.0\Hk20CarbonCostML.Model.pdb
+C:\Hackathon2020\CarbonCost\Hk20CarbonCostML.Model\obj\Release\netstandard2.0\Hk20CarbonCostML.Model.csprojAssemblyReference.cache
+C:\Hackathon2020\CarbonCost\Hk20CarbonCostML.Model\obj\Release\netstandard2.0\Hk20CarbonCostML.Model.AssemblyInfoInputs.cache
+C:\Hackathon2020\CarbonCost\Hk20CarbonCostML.Model\obj\Release\netstandard2.0\Hk20CarbonCostML.Model.AssemblyInfo.cs
+C:\Hackathon2020\CarbonCost\Hk20CarbonCostML.Model\obj\Release\netstandard2.0\Hk20CarbonCostML.Model.csproj.CoreCompileInputs.cache
+C:\Hackathon2020\CarbonCost\Hk20CarbonCostML.Model\obj\Release\netstandard2.0\Hk20CarbonCostML.Model.dll
+C:\Hackathon2020\CarbonCost\Hk20CarbonCostML.Model\obj\Release\netstandard2.0\Hk20CarbonCostML.Model.pdb

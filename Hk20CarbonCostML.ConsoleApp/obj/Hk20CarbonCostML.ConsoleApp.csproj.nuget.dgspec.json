@@ -1,0 +1,153 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Hackathon2020\\CarbonCost\\Hk20CarbonCostML.ConsoleApp\\Hk20CarbonCostML.ConsoleApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Hackathon2020\\CarbonCost\\Hk20CarbonCostML.ConsoleApp\\Hk20CarbonCostML.ConsoleApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Hackathon2020\\CarbonCost\\Hk20CarbonCostML.ConsoleApp\\Hk20CarbonCostML.ConsoleApp.csproj",
+        "projectName": "Hk20CarbonCostML.ConsoleApp",
+        "projectPath": "C:\\Hackathon2020\\CarbonCost\\Hk20CarbonCostML.ConsoleApp\\Hk20CarbonCostML.ConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\navaneeth.kulakkunna\\.nuget\\packages\\",
+        "outputPath": "C:\\Hackathon2020\\CarbonCost\\Hk20CarbonCostML.ConsoleApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\navaneeth.kulakkunna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dhnextgen.pkgs.visualstudio.com/_packaging/nxgPlatform/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Hackathon2020\\CarbonCost\\Hk20CarbonCostML.Model\\Hk20CarbonCostML.Model.csproj": {
+                "projectPath": "C:\\Hackathon2020\\CarbonCost\\Hk20CarbonCostML.Model\\Hk20CarbonCostML.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.ML": {
+              "target": "Package",
+              "version": "[1.5.0-preview2, )"
+            },
+            "Microsoft.ML.LightGBM": {
+              "target": "Package",
+              "version": "[1.5.0-preview2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Hackathon2020\\CarbonCost\\Hk20CarbonCostML.Model\\Hk20CarbonCostML.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Hackathon2020\\CarbonCost\\Hk20CarbonCostML.Model\\Hk20CarbonCostML.Model.csproj",
+        "projectName": "Hk20CarbonCostML.Model",
+        "projectPath": "C:\\Hackathon2020\\CarbonCost\\Hk20CarbonCostML.Model\\Hk20CarbonCostML.Model.csproj",
+        "packagesPath": "C:\\Users\\navaneeth.kulakkunna\\.nuget\\packages\\",
+        "outputPath": "C:\\Hackathon2020\\CarbonCost\\Hk20CarbonCostML.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\navaneeth.kulakkunna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dhnextgen.pkgs.visualstudio.com/_packaging/nxgPlatform/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.ML": {
+              "target": "Package",
+              "version": "[1.5.0-preview2, )"
+            },
+            "Microsoft.ML.LightGBM": {
+              "target": "Package",
+              "version": "[1.5.0-preview2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
